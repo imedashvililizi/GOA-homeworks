@@ -1,68 +1,73 @@
-from turtle import*
-#we want to paint a house
 
-#step1: draw a square
+from turtle import*
+
+#drawing a house
+
+#draw a square
 speed(20)
-width(7)
-color("purple")
-forward(200)
+width(5)
+color("blue")
+forward(180)
 left(90)
-forward(200)
+forward(180)
 left(90)
-forward(200)
+forward(180)
 left(90)
-forward(200)
+forward(180)
 left(90)
-#end of square
 
 #drawing a door
+
 forward(70)
-color("yellow")
+color("green")
 begin_fill()
 left(90)
-forward(120)
+forward(80)
 right(90)
-forward(60)
+forward(40)
 right(90)
-forward(120)
+forward(80)
 end_fill()
+
 #end of door
 
-penup()
-goto(200,200)
-pendown()
-
-#drawing a roof
-color("red")
-begin_fill()
-right(150)
-forward(200)
-left(120)
-forward(200)
-end_fill()
-#end of roof
 
 penup()
 goto(180,180)
 pendown()
 
-#drawing a window
-color("blue")
+#drawing a roof
+color("light blue")
 begin_fill()
-left(30)
-forward(40)
-right(90)
-forward(40)
-right(90)
-forward(40)
-right(90)
-forward(40)
-right(90)
+right(150)
+forward(180)
+left(120)
+forward(180)
+end_fill()
 
 penup()
-goto(20,180)
+goto(160,160)
 pendown()
 
+#begin a window
+color("light green")
+begin_fill()
+
+right(60)
+forward(40)
+left(90)
+forward(40)
+left(90)
+forward(40)
+left(90)
+forward(40)
+left(90)
+
+penup()
+goto(20,160)
+pendown()
+
+left(90)
 forward(40)
 left(90)
 forward(40)
@@ -71,7 +76,7 @@ forward(40)
 left(90)
 forward(40)
 end_fill()
-#end of window
 
+#end of window
 
 exitonclick()
