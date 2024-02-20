@@ -1,4 +1,3 @@
-
 #book price
 the_price_of_the_book1=30
 #book discount
