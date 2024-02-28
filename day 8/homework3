@@ -1,0 +1,8 @@
+target_pushups =int(40)
+target_squats = int(20)
+ 
+pushups = int(input("how many pushups have you done: "))
+squats = int(input("how many squats have you done: "))
+
+print(pushups == target_pushups or squats == target_squats)
+

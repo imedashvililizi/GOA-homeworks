@@ -1,0 +1,18 @@
+required_weight = int(50)
+required_height = int(170)
+
+weight = int(input("what is your weight"))
+height= int(input("what is your height"))
+
+print(weight == required_weight and height == required_height)
+print(weight > required_weight and height > required_height)
+print(weight < required_weight and height < required_height)
+print(weight >= required_weight and height <= required_height)
+
+print(weight == required_weight or height == required_height)
+print(weight > required_weight or height > required_height)
+print(weight < required_weight or height < required_height)
+print(weight >= required_weight or height <= required_height)
+
+
+
