@@ -1,9 +1,10 @@
 i=0 
 
 for i in range(15):
-    print(i)
+    print(i-10)
+    
+    
 
- 
 
 for i in range(30):
     if i % 2 == 0:
