@@ -2,7 +2,14 @@
 """
 list = []
 
-for i in range(5):
-    list1=int(input("enter number"))
-    list.append(list1)
-print(list[0] + list[1] + list[2] + list[3] + list[4])
+for i in range(4):
+    num = int(input("enter number :"))
+    list.append(num)
+
+result = 0
+
+
+for num in list:
+    result = result + num
+
+print(result)

@@ -8,5 +8,5 @@ for i in range(30,50 + 1):
     list.append(i)
     
     if i % 2 != 0:
-
-        print(len(list))
+         print()
+print(len(list))
