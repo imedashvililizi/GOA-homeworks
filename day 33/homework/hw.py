@@ -1,1 +1,1 @@
-print("lizi")
+#no homework
